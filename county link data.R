@@ -1,5 +1,6 @@
 #install.packages("rvest")
-library("rvest")
+library(rvest)
+library(dplyr)
 
 url <- "https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents"
 counties <- url %>%
